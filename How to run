@@ -1,0 +1,22 @@
+# Task-for-SDET-Fresher-
+Contains the solution for given problem statement
+1- open 3 terminal or powershells.
+2- first run server.py
+3-then you will get output as server is running and listening.
+4-then run client.py
+5-it will ask you an alias name there type your name
+6- then you will get output as connection is established with host and respective port number
+7- again run client.py in another terminal and it will again ask you type your alias name
+8-then you will get output as connection is established with host and respective port number
+9 then the connection would be established and you can send any message to your friend.
+
+
+
+
+
+
+
+
+
+Note :make sure that all 3 terminals should be in one window simultaneously so that you can figure it out how the chat room is working.
+Note 2-if you want to connect to your friend which are located on other laptops, you can give them client.py and change host to their ipv4 adress and in server .py  make             host=' ', make sure that port number should be the same.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1-It is basically a web chat system.
 2-one server is there and multiple clients are there.
 3-multiple clients are communicating with the help of server
@@ -6,3 +7,13 @@
 6-threading is used for server performing two tasks at a single time like communicating to already existing clients and communicating to new clients as well.
 7-A system can act as Server and Client simultaneously. That is, one process is acting as    Server and another is acting as a client. This may also happen that both client and server     processes reside on the same machine.
 
+=======
+1-It is basically a web chat system.
+2-one server is there and multiple clients are there.
+3-multiple clients are communicating with the help of server
+4-host will be local host-127.0.0.1
+5-sockets will be used for bind and listem functions.
+6-threading is used for server performing two tasks at a single time like communicating to already existing clients and communicating to new clients as well.
+7-A system can act as Server and Client simultaneously. That is, one process is acting as    Server and another is acting as a client. This may also happen that both client and server     processes reside on the same machine.
+
+>>>>>>> 4fd7935f3ec6bd65c3125fb312e308bfddea9416
