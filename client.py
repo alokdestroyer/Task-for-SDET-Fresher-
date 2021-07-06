@@ -1,5 +1,7 @@
 import threading
 import socket
+
+import psutil
 alias = input('Choose an alias >>> ')
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(('127.0.0.1', 59000))
@@ -11,12 +13,21 @@ def client_receive():
             message = client.recv(1024).decode('utf-8')
             if message == "alias?":
                 client.send(alias.encode('utf-8'))
+                print("cpu ususgae is",psutil.cpu_percent(4))
+                print('RAM memory % used:', psutil.virtual_memory()[2])
+                print('total memory  used:', psutil.virtual_memory()[0])
+                print('amount of disk free', psutil.virtual_memory()[4])
+                print("Number of processes running", psutil.cpu_count())
+                
             else:
                 print(message)
+                
         except:
             print('Error!')
             client.close()
             break
+
+
 
 
 def client_send():
