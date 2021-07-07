@@ -1,0 +1,24 @@
+                                                                Task Achieved
+ 
+1-able to connect multiple clients and server
+2-completed the designing part in design.txt.
+3-acknowledgement is there for client connection and client disconnection.
+4-achieved the functionality of different cpu and process task.
+
+
+                                                                Problem faced
+
+1-As I am not aware of flask i do not know how server will be connected to database.
+2-I have read about memcached and LRU caching but due to unavailability of server i am not    able to implement it. 
+
+3-initially when assignment was given to me i had no idea how to start and where to start    then i googled the things out and got to know that this is required from me.
+4- i contacted my freinds also but they were also very new to this so they could not help me.
+5-I have faced errors while setting up a virtual environment and get it resolved by changing some  execution policy of json settings.
+6-I got winerror and oserror as well but get it resolved with the help of stack overflow.
+
+
+                                                              Alternative way
+
+1-It can be done with the help of javascrpit and node js.
+2-API will be used there.
+
